@@ -28,6 +28,11 @@ body{
     align-items: stretch;
     /* min-width: 800px; */
 }
+@media (max-width: 800px) {
+    .left-header-container{
+        flex-direction: column;
+    }
+}
 .img-con{
     /* margin-left: 100px; */
 }
@@ -55,6 +60,17 @@ body{
     min-width: 35vw;
     /* min-width: 560px; */
 }
+@media (max-width: 1590px) {
+    .right-header-container{
+        justify-content: start;
+    }
+}
+@media (max-width: 800px) {
+    .right-header-container{
+        flex-direction: column;
+        justify-content: start;
+    }
+}
 .second-container{
     display: flex;
     justify-content: space-between;
@@ -70,40 +86,40 @@ body{
 @media (min-width: 900px) {
     .second-container{
         height: 50vh;
-        background-position: -350px 30px;
+        background-position: 1000px -1000px;
     }
 }
 @media (min-width: 1000px) {
    .second-container{
     height: 50vh;
-    background-position: -300px 30px;
+    background-position: -400px 0px;
    } 
-}
-@media (min-width: 1050px) {
-    .second-container{
-        height: 60vh;
-        background-position: -250px 30px;
-    }
 }
 @media (min-width: 1200px) {
     .second-container{
         height: 60vh;
-        background-position: -200px 30px;
+        background-position: -450px 0px;
+    }
+}
+@media (min-width: 1400px) {
+    .second-container{
+        height: 60vh;
+        background-position: -300px 10px;
     } 
 }
-@media (min-width: 1300px) {
+@media (min-width: 1500px) {
     .second-container{
         height: 60vh;
         background-position: -150px 30px;
     }
 }
-@media (min-width: 1370px) {
+@media (min-width: 1700px) {
     .second-container{
         height: 60vh;
         background-position: -100px 30px;
     }
 } 
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
     .second-container{
         height: 60vh;
         background-position: 20px -30px;
@@ -384,7 +400,7 @@ body{
     margin: 100px auto 50px;
     font-family: sans-serif;
     flex-wrap: wrap;  
-    background: repeating-linear-gradient(90deg, lightgrey, transparent 0.01px);
+    background: #e6e6e6;
 }
 .seventh-container h1{
     margin: 70px 0 0 0;
@@ -515,7 +531,7 @@ body{
     background-color: white;
 }
 .last-container{
-    background: repeating-linear-gradient(90deg, lightgrey, transparent 0.01px);
+    background: #e6e6e6;
     display: flex;
     flex-direction: column;
 }
