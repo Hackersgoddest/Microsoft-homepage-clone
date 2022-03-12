@@ -60,15 +60,16 @@ body{
     min-width: 35vw;
     /* min-width: 560px; */
 }
-@media (max-width: 1590px) {
+@media (max-width: 1589.3px) {
     .right-header-container{
         justify-content: start;
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 780px) {
     .right-header-container{
         flex-direction: column;
         justify-content: start;
+        margin-top: 59px;
     }
 }
 .second-container{
